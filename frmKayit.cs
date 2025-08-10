@@ -21,9 +21,9 @@ namespace WindowsFormsApp1
                 SqlCommand kayit = new SqlCommand("kayitOl", bgl.baglan());
                 kayit.CommandType = CommandType.StoredProcedure;
                 kayit.Parameters.AddWithValue("kulAdi",txtKulAdi.Text); 
-                kayit.Parameters.AddWithValue("sifre",txtSifre.Text);   
+                kayit.Parameters.AddWithValue("sifre",txtSifre.Text);
                 kayit.ExecuteNonQuery();
-                MessageBox.Show("Kayıt İşlemi Başarılı", "Kayıt Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Kayıt İşlemi Başarılı", "Kayıt Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
             }

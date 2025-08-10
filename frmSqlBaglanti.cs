@@ -4,8 +4,8 @@ namespace WindowsFormsApp1
 {
     internal class frmSqlBaglanti
     {
-        string connectionString = "Server=CASPER\\SQLEXPRESS;Database=db_HastaneYonetim;User Id=sa;Password=SeninSifren;";
-
+        internal string ConnectionString;
+        string connectionString = "Server=CASPER\\SQLEXPRESS;Database=db_HastaneYonetim;Integrated Security=True;TrustServerCertificate=True;MultipleActiveResultSets=true;";
 
         public SqlConnection baglan()
         {

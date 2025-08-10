@@ -59,6 +59,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaSayfa.Designer.cs">
+      <DependentUpon>frmAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIstatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIstatistic.Designer.cs">
+      <DependentUpon>frmIstatistic.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmKayit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +82,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaSayfa.resx">
+      <DependentUpon>frmAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIstatistic.resx">
+      <DependentUpon>frmIstatistic.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKayit.resx">
       <DependentUpon>frmKayit.cs</DependentUpon>

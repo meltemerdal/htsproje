@@ -162,6 +162,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "GİRİŞ YAP";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
@@ -176,7 +177,7 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HTS-GİRİŞ";
-            this.Load += new System.EventHandler(this.Form2_Load);
+            // this.Load += new System.EventHandler(this.);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
